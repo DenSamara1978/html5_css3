@@ -11,7 +11,7 @@ html, body
 
 body 
 {
-    margin: 0, auto;
+    margin: 0 auto;
     background: #cccccc;
     font-family: Arial, sans-serif;
 }
@@ -292,7 +292,7 @@ h1
     transform: rotate(45deg);
 }
 
-.reviews_div author
+.reviews_div .author
 {
     color: #989898;
     font-size: 14px;
