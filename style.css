@@ -68,6 +68,11 @@ header
     float: left;    
 }
 
+.headerUnit img:hover
+{
+    transform: scale ( 1.2, 1.2 );
+}
+
 .headerUnit h2
 {
     margin-left: 70px;
@@ -153,6 +158,11 @@ header
 {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.headerMenu address img:hover
+{
+    transform: scale(1.2, 1.2);
 }
 
 @media ( max-width: 1200px )
@@ -855,6 +865,17 @@ header
     justify-content: center;
 }
 
+.galleryBlockImg
+{
+    transition: all 0.5s;
+}
+
+.galleryBlockImg:hover
+{
+    transform: rotateY(180deg);
+    transition-duration: 0.5s;
+}
+
 @media (max-width: 1300px)
 {
     .galleryBlock
@@ -1037,6 +1058,11 @@ header
 {
     text-decoration: none;
     color: #ffffff;
+}
+
+.readMore_div a div
+{
+    transition: all 0.5s;
 }
 
 .readMore_div a div:hover
